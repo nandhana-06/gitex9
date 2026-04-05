@@ -25,3 +25,4 @@ jobs:
       # Step 4: Push Docker Image
       - name: Push Docker Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/my-app
+        
